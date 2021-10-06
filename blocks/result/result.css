@@ -3,6 +3,7 @@
     grid-template-columns: 1fr;
     gap: 30px;
     justify-content: center;
+    justify-items: center;
     width: 100%;
     padding: 40px 120px;
     box-sizing: border-box;

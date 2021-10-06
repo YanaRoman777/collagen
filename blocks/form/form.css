@@ -6,3 +6,7 @@
     box-sizing: border-box;
     justify-content: center;
 }
+
+.form span {
+    padding-left: 10px;
+}

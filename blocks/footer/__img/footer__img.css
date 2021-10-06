@@ -1,6 +1,6 @@
 .footer__img {
     display: block;
-    max-width: 300px;
+    max-width: 280px;
 }
 @media all and (max-width: 500px)  {
     .footer__img {

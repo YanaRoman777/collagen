@@ -1,3 +1,10 @@
 .price__img {
     width: 100%;
 }
+
+@media all and (max-width: 500px)  {
+    .price__img {
+        width: 200px;
+        justify-self: center;
+    }
+}

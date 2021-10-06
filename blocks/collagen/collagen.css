@@ -24,7 +24,8 @@
         grid-template-rows: 2fr 1fr;
         padding: 40px;
         min-height: 250px;
-        background-size: 70% 100%;
+        background-size:contain;
+        background-position: 100% 100%;
     }
 }
 

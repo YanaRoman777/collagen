@@ -1,6 +1,6 @@
 .header {
     background: linear-gradient(
-    140deg, rgba(95, 38, 38, 0.7) 10%, rgba(210, 188, 192, .05) 99%);
+    140deg, rgba(172, 24, 45, 0.4) 10%, rgba(210, 188, 192, .05) 99%);
     display: grid;
     grid-template-columns: 1fr max-content;
     grid-template-rows:  repeat(6, min-content);
@@ -49,7 +49,7 @@
 @media all and (max-width: 700px)  {
     .header {
         grid-template-columns: 1fr ;
-        grid-template-rows:  repeat(6, min-content);
+        grid-template-rows:  min-content 1fr repeat(4, min-content) 1fr;
         grid-template-areas: 
         "pr1"
         "title"
@@ -59,11 +59,14 @@
         "pr4"
         "but"
         "pr5";
+        justify-content: center;
+        justify-items: center;
+        min-height: 600px;
     }
 }
 
 @media all and (max-width: 500px)  {
     .header {
-        padding: 20px 20px 10px;
+        padding: 20px;
     }
 }

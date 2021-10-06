@@ -10,7 +10,7 @@
 .cards_ps {
     gap: 20px;
     grid-template-rows: min-content min-content;
-    background: #d6abb3 no-repeat;
+    background: #fff no-repeat;
     background-image: url(../../images/collagen2.png);
     background-size: 600px 400px;
     background-position: 0% 100%;
@@ -37,5 +37,9 @@
 @media all and (max-width: 500px)  {
     .cards {
         padding: 0px 20px 10px;
+    }
+    .cards_ps {
+        background-size: 400px 200px;
+        background-position: 0% 100%;
     }
 }

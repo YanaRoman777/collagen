@@ -9,10 +9,12 @@
     line-height: 32px;
     justify-self: center;
     max-width: 500px;
+    list-style-type: none;
 }
 
 .cards_ps .cards__ul {
-    font-weight: bold;
+    list-style-type: none;
+    text-align: center;
 }
 @media all and (max-width: 1500px)  {
     .cards__ul {
@@ -37,6 +39,11 @@
     .cards__ul {
         max-width: 100%;
         font-size: 14px;
+        line-height: 21px;
+        padding-inline-start: 0px;
+    }
+    .cards_ps .cards__ul {
+        font-size: 17px;
         line-height: 21px;
     }
 }

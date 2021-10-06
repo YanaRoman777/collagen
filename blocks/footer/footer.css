@@ -3,7 +3,7 @@
     grid-template-columns: 1fr;
     gap: 10px;
     background: linear-gradient(
-    120deg, rgba(95, 38, 38, 1) 10%, rgba(210, 188, 192, .05) 100%);
+    140deg, rgba(172, 24, 45, 0.4) 10%, rgba(210, 188, 192, .05) 99%);
     padding: 40px 120px;
     box-sizing: border-box;
     justify-content: center;

@@ -34,6 +34,7 @@
     .description__paragraph {
         font-size: 14px;
         line-height: 21px;
+        text-align: center;
     }
     .description__paragraph:first-of-type {
         margin-top: 150px;

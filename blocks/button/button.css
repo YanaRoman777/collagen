@@ -14,7 +14,10 @@
     text-align: center;
     justify-self: center;
     text-transform: uppercase;
+    border-radius: 20px;
+    font-weight: bold;
 }
+
 .header .button {
     grid-area: but;
     align-self: center;
@@ -39,7 +42,7 @@
 
 @media all and (max-width: 500px)  {
     .button {
-        max-width: 291px;
+        max-width: 280px;
         height: 37px;
         padding-top: 5px;
         font-size: 16px;

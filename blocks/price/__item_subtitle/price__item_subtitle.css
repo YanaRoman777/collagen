@@ -1,4 +1,4 @@
-.price__paragraph {
+.price__item_subtitle {
     margin-block-start: 0px;
     margin-block-end: 0;
     margin-inline-start: 0px;
@@ -7,42 +7,30 @@
     font-size: 22px;
     line-height: 25px;
     color: #240000;
-    display: none;
     text-align: center;
 }
 
-.price__paragraph  span {
-    text-transform: uppercase;
-}
-
-.price__paragraph  .span_bold {
-    margin-top: 20px;
-    display: block;
-    width: 100%;
-    font-weight: bold;
-}
-
 @media all and (max-width: 1500px)  {
-    .price__paragraph {
+    .price__item_subtitle {
         font-size: 20px;
         line-height: 23px;
     }
 }
 @media all and (max-width: 1200px)  {
-    .price__paragraph{
+    .price__item_subtitle {
         font-size: 18px;
         line-height: 21px;
     }
 }
 @media all and (max-width: 800px)  {
-    .price__paragraph {
+    .price__item_subtitle {
         font-size: 16px;
         line-height: 19px;
     }
 }
 
 @media all and (max-width: 500px)  {
-    .price__paragraph {
+    .price__item_subtitle {
         font-size: 14px;
     }
 }

@@ -27,6 +27,11 @@
         line-height: 24px;
     }
 }
+@media all and (max-width: 700px)  {
+    .header__subtitle{
+        text-align: center;
+    }
+}
 
 @media all and (max-width: 500px)  {
     .header__subtitle{
