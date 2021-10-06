@@ -12,7 +12,7 @@
 
 @media all and (max-width: 700px)  {
     .result__items {
-        grid-template-columns: 1fr;
+        grid-template-columns: 320px;
         justify-items: center;
     }
 }

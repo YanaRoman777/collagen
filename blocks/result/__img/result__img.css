@@ -1,8 +1,13 @@
 .result__img {
-    max-width: 320px;
-    width: 100%;
+    width: 300px;
     height: 550px;
     border: rgb(215, 156, 167) 1px solid;
     box-shadow: 12px 12px 18px rgba(215, 156, 167, 0.5);
     border-radius: 20px;
+}
+
+@media all and (max-width: 700px)  {
+    .result__img:last-of-type {
+        height: 600px;
+    }
 }
