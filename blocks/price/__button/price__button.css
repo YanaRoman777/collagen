@@ -1,0 +1,22 @@
+.price__button {
+    width: 20px;
+    height: 12px;
+    background: url(../../../images/Path_down.png) center no-repeat;
+    border: none;
+    background-size:contain;
+    justify-self: center;
+}
+
+.price__button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+@media all and (max-width: 900px)  {
+    .price__button {
+        background-size: 95%;
+        width: 14px;
+        height: 7px;
+        background-size: 14px 7px;
+    }
+}

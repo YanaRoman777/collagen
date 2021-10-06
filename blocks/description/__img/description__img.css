@@ -1,0 +1,11 @@
+.description__img {
+    width: 80px;
+    justify-self: center;
+}
+
+
+@media all and (max-width: 500px)  {
+    .description__img {
+        width: 50px;
+    }
+}

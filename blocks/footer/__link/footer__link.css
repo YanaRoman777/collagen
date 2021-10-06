@@ -1,0 +1,27 @@
+.footer__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    width: 100%;
+}
+
+.footer__link:hover {
+    color: #facbcb;
+    cursor: pointer;
+}
+
+@media all and (max-width: 800px)  {
+    .footer__link{
+        font-size: 17px;
+        line-height: 20px;
+    }
+}
+@media all and (max-width: 500px)  {
+    .footer__link  {
+        font-size: 12px;
+        line-height: 17px;
+        margin-block-start: 5px;
+    }
+}

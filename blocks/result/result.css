@@ -1,0 +1,30 @@
+.result {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 120px;
+    box-sizing: border-box;
+}
+@media all and (max-width: 1500px)  {
+    .result {
+        padding: 40px 90px;
+    }
+}
+@media all and (max-width: 1200px)  {
+    .result {
+        padding: 40px 60px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .result {
+        padding: 40px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .result {
+        padding: 20px;
+    }
+}

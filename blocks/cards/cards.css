@@ -1,0 +1,41 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content 1fr;
+    padding: 0px 120px 40px;
+    box-sizing: border-box;
+    justify-content: center;
+    justify-items: center;
+}
+.cards_ps {
+    gap: 20px;
+    grid-template-rows: 1fr 1fr;
+    background: #d6abb3 no-repeat;
+    background-image: url(../../images/collagen2.png);
+    background-size: 600px 400px;
+    background-position: 0% 100%;
+    min-height: 400px;
+    align-items: center;
+}
+
+@media all and (max-width: 1500px)  {
+    .cards {
+        padding:0px 90px 40px;
+    }
+}
+@media all and (max-width: 1200px)  {
+    .cards {
+        padding: 0 60px 40px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .cards {
+        padding:0px 40px 40px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .cards {
+        padding: 0px 20px 10px;
+    }
+}

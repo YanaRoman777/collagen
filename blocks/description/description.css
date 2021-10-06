@@ -1,0 +1,51 @@
+.description {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 40px 400px 40px 120px;
+    box-sizing: border-box;
+    background: #d6abb3 no-repeat;
+    background-image: url(../../images/Kollagen1.png);
+    background-size: contain;
+    background-position: 100% 50%;
+    color: #240000;
+    justify-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+@media all and (max-width: 1500px)  {
+    .description {
+        padding: 40px 400px 40px 90px;
+    }
+}
+@media all and (max-width: 1200px)  {
+    .description {
+        padding: 40px 400px 40px 60px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .description {
+        padding: 40px;
+        background-size: 600px 300px;
+        background-position: 50% 20%;
+
+    }
+}
+@media all and (max-width: 700px)  {
+    .description {
+        background-size: 500px 250px;
+        background-origin: content-box;
+
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .description {
+        padding: 20px;
+        background-size: 400px 200px;
+    }
+}
+@media all and (max-width: 400px)  {
+    .description {
+        background-size: 300px 150px;
+    }
+}

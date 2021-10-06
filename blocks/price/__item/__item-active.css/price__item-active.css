@@ -1,0 +1,7 @@
+.price__item-active .price__paragraph {
+    display: inline-block;
+}
+.price__item-active .price__button {
+    background: url(../../../../images/Path_up.svg) center no-repeat;
+    background-size:cover;
+}
