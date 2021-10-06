@@ -1,3 +1,10 @@
 .footer__img {
+    display: block;
     max-width: 300px;
+}
+@media all and (max-width: 500px)  {
+    .footer__img {
+        justify-self: center;
+        margin: 0 auto;
+    }
 }

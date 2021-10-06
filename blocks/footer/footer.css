@@ -7,6 +7,8 @@
     padding: 40px 120px;
     box-sizing: border-box;
     justify-content: center;
+    justify-items: center;
+    text-align: center;
     width: 100%;
 }
 
@@ -29,9 +31,7 @@
 
 @media all and (max-width: 500px)  {
     .footer {
-        margin-top: 0px;
         padding: 20px;
-        justify-content: center;
-        text-align: center;
     }
 }
+

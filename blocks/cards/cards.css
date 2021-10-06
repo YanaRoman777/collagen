@@ -9,13 +9,13 @@
 }
 .cards_ps {
     gap: 20px;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: min-content min-content;
     background: #d6abb3 no-repeat;
     background-image: url(../../images/collagen2.png);
     background-size: 600px 400px;
     background-position: 0% 100%;
     min-height: 400px;
-    align-items: center;
+    align-content: center;
 }
 
 @media all and (max-width: 1500px)  {

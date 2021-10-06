@@ -10,6 +10,7 @@
     padding: 20px;
     box-sizing: border-box;
     background: rgba(233, 152, 162, .4);
+    margin-bottom: 20px;
 }
 
 .form__input:first-child {
@@ -26,6 +27,6 @@
 }
 @media all and (max-width: 500px) {
     .form__input {
-        max-width: 291px;
+        max-width: 100%;
     }
 }
