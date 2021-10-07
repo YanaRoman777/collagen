@@ -9,6 +9,7 @@ function activeParagraph () {
   questionsParagraph.classList.toggle('questions__paragraph-active');
 }
 Array.from(document.querySelectorAll(".price__item")).forEach(e=>{e.addEventListener("click",(function(){
+  
   this.classList.toggle("price__item-active");
   let e=this.querySelector(".price__paragraph");
   e.style.maxHeight?e.style.maxHeight=null:e.style.maxHeight=e.scrollHeight+"px"}))});
@@ -27,7 +28,7 @@ const submitEditProfileForm = evt => {
 }
 formElement.addEventListener('submit', submitEditProfileForm);
 
-
+// количество товара
 var numCount = document.querySelector('.num_count');
 var plusBtn = document.querySelector('.button_plus');
 var minusBtn = document.querySelector('.button_minus');
