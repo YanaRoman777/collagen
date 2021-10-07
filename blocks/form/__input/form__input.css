@@ -16,6 +16,9 @@
     border-radius: 20px;
     margin-top: 8px;
 }
+.form__input:focus {
+    background: rgba(233, 152, 162, .25);
+}
 
 .form__input:first-child {
     margin-top: 18px;
