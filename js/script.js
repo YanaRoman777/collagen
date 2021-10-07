@@ -1,3 +1,6 @@
+
+
+
 const questionsButton = document.querySelectorAll('.questions__button');
 const questionsParagraph = document.querySelector('.questions__paragraph');
 const formElement = document.querySelector('.form');
