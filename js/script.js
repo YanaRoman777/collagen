@@ -8,8 +8,7 @@ const buttonElement = document.querySelector('.form__submit');
 function activeParagraph () {
   questionsParagraph.classList.toggle('questions__paragraph-active');
 }
-Array.from(document.querySelectorAll(".price__item")).forEach(e=>{e.addEventListener("click",(function(){
-  
+Array.from(document.querySelectorAll(".price__paragraphs")).forEach(e=>{e.addEventListener("click",(function(){
   this.classList.toggle("price__item-active");
   let e=this.querySelector(".price__paragraph");
   e.style.maxHeight?e.style.maxHeight=null:e.style.maxHeight=e.scrollHeight+"px"}))});
@@ -29,16 +28,29 @@ const submitEditProfileForm = evt => {
 formElement.addEventListener('submit', submitEditProfileForm);
 
 // количество товара
-var numCount = document.querySelector('.num_count');
-var plusBtn = document.querySelector('.button_plus');
-var minusBtn = document.querySelector('.button_minus');
-plusBtn.onclick = function() {
-  var qty = parseInt(numCount.value);
-  qty = qty + 1;
-  numCount.value = qty;
-}
-minusBtn.onclick = function() {
-  var qty = parseInt(numCount.value);
-  qty = qty - 1;
-  numCount.value = qty;
-}
+function quantityGoods(e){
+  var numCount = e.querySelector('.num_count');
+  var plusBtn = e.querySelector('.button_plus');
+  var minusBtn = e.querySelector('.button_minus');
+  plusBtn.onclick = function() {
+    var qty = parseInt(numCount.value);
+    qty = qty + 1;
+    numCount.value = qty;
+  }
+  minusBtn.onclick = function() {
+    var qty = parseInt(numCount.value);
+    if(qty > 0)
+    qty = qty - 1;
+    numCount.value = qty;
+  }};
+
+const priceItem1 = document.querySelector('#price_item1');
+quantityGoods(priceItem1);
+const priceItem2 = document.querySelector('#price_item2');
+quantityGoods(priceItem2);
+const priceItem3 = document.querySelector('#price_item3');
+quantityGoods(priceItem3);
+const priceItem4 = document.querySelector('#price_item4');
+quantityGoods(priceItem4);
+const priceItem5 = document.querySelector('#price_item5');
+quantityGoods(priceItem5);
