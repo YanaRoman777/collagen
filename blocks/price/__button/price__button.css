@@ -1,7 +1,7 @@
 .price__button {
     width: 20px;
     height: 9px;
-    background: url(../../../images/Path_down.png) center no-repeat;
+    background: url(../../../images/Path_up.png) center no-repeat;
     border: none;
     background-size:contain;
     justify-self: center;
