@@ -4,7 +4,10 @@
     top: 10px;
     left: 50px;
 }
-
+.nav_thanks .nav__img{
+    position: relative;
+    align-self: center;
+}
 @media all and (max-width: 1100px)  {
     .nav__img{
         left: 20px;

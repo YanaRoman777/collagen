@@ -16,6 +16,11 @@
     width: 100%;
 }
 
+.nav_thanks {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: stretch;
+}
+
 @media all and (max-width: 1100px)  {
     .nav{
         gap: 50px;
