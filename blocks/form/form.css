@@ -10,3 +10,9 @@
 .form span {
     padding-left: 10px;
 }
+
+@media all and (max-width: 350px) {
+    .form {
+        max-width: 280px;
+    }
+}

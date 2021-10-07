@@ -1,9 +1,12 @@
 .form__submit_inactive {
     background: #ffffff;
-    box-shadow: 0px 0px 25px rgba(20, 54, 68, 0.3);
+    border: rgb(215, 156, 167) 1px solid;
+    box-shadow: 12px 12px 18px rgba(215, 156, 167, 0.5);
     color: #000;
 }
 
 .form__submit_inactive:hover {
     background: #ffffff;
+    border: rgb(215, 156, 167) 1px solid;
+    box-shadow: 12px 12px 18px rgba(215, 156, 167, 0.5);
 }

@@ -5,6 +5,7 @@
     border: none;
     background-size:contain;
     justify-self: center;
+    margin-top: 20px;
 }
 
 .price__button:hover {
@@ -18,5 +19,6 @@
         width: 14px;
         height: 7px;
         background-size: 14px 7px;
+        margin-top: 10px;
     }
 }

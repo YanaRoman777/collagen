@@ -15,6 +15,8 @@
     display: block;
     width: 100%;
     font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
 }
 
 @media all and (max-width: 1500px)  {
@@ -27,6 +29,10 @@
         font-size: 30px;
         line-height: 45px;
     }
+    .price__title  span {
+        font-size: 20px;
+        line-height: 24px;
+    }
 }
 
 @media all and (max-width: 500px)  {
@@ -34,5 +40,9 @@
         font-size: 20px;
         line-height: 24px;
         justify-self: center;
+    }
+    .price__title  span {
+        font-size: 14px;
+        line-height: 20px;
     }
 }

@@ -26,3 +26,18 @@ const submitEditProfileForm = evt => {
   resetFormAdd();
 }
 formElement.addEventListener('submit', submitEditProfileForm);
+
+
+var numCount = document.querySelector('.num_count');
+var plusBtn = document.querySelector('.button_plus');
+var minusBtn = document.querySelector('.button_minus');
+plusBtn.onclick = function() {
+  var qty = parseInt(numCount.value);
+  qty = qty + 1;
+  numCount.value = qty;
+}
+minusBtn.onclick = function() {
+  var qty = parseInt(numCount.value);
+  qty = qty - 1;
+  numCount.value = qty;
+}

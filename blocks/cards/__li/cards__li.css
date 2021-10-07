@@ -1,7 +1,6 @@
 .cards__li {
-    text-align: left;
+    text-align: center;
 }
 .cards_ps .cards__li {
     margin-top: 20px;
-    text-align: center;
 }
