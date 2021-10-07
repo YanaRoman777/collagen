@@ -58,3 +58,6 @@
 @import url(../blocks/price/__item_title/price__item_title.css);
 @import url(../blocks/price/__item_subtitle/price__item_subtitle.css);
 @import url(../blocks/price/__group/price__group.css);
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__img/nav__img.css);
+@import url(../blocks/nav/__link/nav__link.css);

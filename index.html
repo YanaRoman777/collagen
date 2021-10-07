@@ -7,7 +7,12 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
-  <div class="page">
+  <div class="page"><nav class="nav">
+    <img class="nav__img" src="./images/logo.png" alt="Логотип Марина Дорн">
+    <a class="nav__link" href="#price">Коллаген</a>
+    <a class="nav__link" href="#reviews">Отзывы</a>
+    <a class="nav__link" href="https://marina-dorn.ru/">Наш магазин</a>
+  </nav>
     <header class="header">
       <p class="header__paragraph">Безинъекционный&nbsp;коллаген</p>
       <img class="header__title" src="./images/DERMASTIR.png" alt="DERMASTIR">
@@ -16,7 +21,7 @@
       <p class="header__paragraph"><span>&#10008;</span>&nbsp;Нет&nbsp;операциям</p>
       <p class="header__paragraph"><span>&#10004;</span>&nbsp;Да&nbsp;нанотехнологиям&nbsp;Dermastir</p>
       <a class="button button_buy" href="#price">КУПИТЬ</a>
-      <p class="header__paragraph">Единственный поставщик продаж в России.</p>
+      <p class="header__paragraph">Единственный поставщик в России.</p>
     </header>
     <section class="collagen">
       <p class="collagen__paragraph">Коллаген — белок молодости обеспечивающий её прочность и эластичность. <br>
@@ -61,7 +66,7 @@
       </ul>
     </section>
     <section class="result">
-      <h2 class="result__title">Кaртинки до/после</h2>
+      <h2 class="result__title">До/после</h2>
       <div class="result__items">
         <img  class="result__img" src="./images/result1.jpeg" alt="cкрин">
         <img  class="result__img" src="./images/result2.jpeg" alt="cкрин">
@@ -77,7 +82,7 @@
       <h2 class="price__title">Подарите себе гладкую кожу</h2>
       <form class="price__items form__checkbox">
         <div id="price_item1" class="price__item">
-          <input type="checkbox" id="item1" class="form__checkbox_imput">
+          <input type="checkbox" id="item1" name="COLLAGEN" class="form__checkbox_imput">
           <label  class="form__checkbox_label price__item_title" for="item1">Частицы Dermastir Post-filler - COLLAGEN</label>
           <img class="price__img" src="./images/DERMASTIRIcol1.png" alt="Ампула">
           <p class="price__item_subtitle">Эффект филлера призван заполнять погрешности лица.</p>
@@ -96,7 +101,7 @@
           </div>
         </div>
         <div id="price_item2" class="price__item">
-          <input type="checkbox" id="item2" class="form__checkbox_imput">
+          <input type="checkbox" id="item2" name="VITAMIN_C" class="form__checkbox_imput">
           <label  class="form__checkbox_label price__item_title" for="item2">Частицы Dermastir Post-filler - VITAMIN C</label>
           <img class="price__img" src="./images/DERMASTIRIcol1.png" alt="Ампула">
           <p class="price__item_subtitle">Уничтожение пигментных пятен, укрепление капилляров, избавление от купероза и синих кругов под глазами.</p>
@@ -115,7 +120,7 @@
           </div>
         </div>
         <div id="price_item3" class="price__item">
-          <input type="checkbox" id="item3" class="form__checkbox_imput">
+          <input type="checkbox" id="item3" name="EYE_LIP" class="form__checkbox_imput">
           <label  class="form__checkbox_label price__item_title" for="item3">Частицы Dermastir Post-filler - EYE & LIP CONTOUR</label>
           <img class="price__img" src="./images/DERMASTIReyelip3.png" alt="Ампула">
           <p class="price__item_subtitle">Для нежной кожи вокруг глаз и губ, разглаживает морщины, избавляет от темных кругов и следов усталости.</p>
@@ -132,7 +137,7 @@
             </div>
         </div>
         <div id="price_item4" class="price__item">
-          <input type="checkbox" id="item4" class="form__checkbox_imput">
+          <input type="checkbox" id="item4" name="SCAR_REPAIR" class="form__checkbox_imput">
           <label  class="form__checkbox_label price__item_title" for="item4">Частицы Dermastir Post-filler - SCAR REPAIR</label>
           <img class="price__img" src="./images/DERMASTIRIscar4.png" alt="Ампула">
           <p class="price__item_subtitle">Коррекция рубцов, шрамов, постакне.</p>
@@ -155,7 +160,7 @@
           </div>
         </div>
         <div id="price_item5" class="price__item">
-          <input type="checkbox" id="item5" class="form__checkbox_imput">
+          <input type="checkbox" id="item5" name="LUXURY" class="form__checkbox_imput">
           <label  class="form__checkbox_label price__item_title" for="item5">Частицы Dermastir Scar Repair Post-filler LUXURY</label>
           <img class="price__img" src="./images/DERMASTIRIlux5.png" alt="Ампула">
           <p class="price__item_subtitle">Эффект фотошопа, сужает поры за счет экстракта икры, придает коже здоровое сияние, заполняет морщины.</p>
@@ -198,7 +203,7 @@
         <button type="submit" class="button form__submit form__submit_inactive" disabled>КУПИТЬ</button>
       </form>
     </section>
-    <section class="reviews">
+    <section id="reviews"  class="reviews">
       <h2 class="reviews__title">Отзывы</h2>
       <div class="slider">
         <div class="slider__wrapper">
@@ -241,7 +246,7 @@
         <img class="reviews__img" src="./images/reviews9.jpeg" alt="cкрин">
         <img class="reviews__img" src="./images/reviews10.jpeg" alt="cкрин">
       </div>
-    </section>
+    </sectionш>
     <section class="certificates"></section>
     <footer class="footer">
       <img class="footer__img" src="./images/logo.png" alt="Логотип Марина Дорн">
@@ -256,8 +261,8 @@
         <span> г. Москва, Домодедово,
           ул. Курыжова 5/1</span>
       </p>
-      <a class="footer__link" href="https://marina-dorn.ru/privacy/">Политика конфиденциальности</a>
-      <a class="footer__link" href="https://marina-dorn.ru/oferta/">Оферта</a>
+      <a class="footer__link" href="#">Политика конфиденциальности</a>
+      <a class="footer__link" href="#">Оферта</a>
     </footer>
   </div>
   <!-- Подключаем JS слайдера -->
