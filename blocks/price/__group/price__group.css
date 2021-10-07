@@ -17,7 +17,8 @@
 .price__group_button {
     width: 22px;
     background: #ffffff;
-    border: rgb(209, 168, 175) 1px solid;
+    border: #d1a8af 1px solid;
+    border-radius: 5px;
     box-shadow: 2px 2px 8px rgba(215, 156, 167, 0.5);
 }
 .price__group_button:hover {
