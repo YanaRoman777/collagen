@@ -6,4 +6,13 @@
   background: #fff;
   color: #240000;
   max-width: 1920px;
+  width: 100%;
+}
+
+.page_thanks {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row: 1fr min-content;
+  height: 100vh;
+  max-width: 100%;
 }

@@ -11,7 +11,11 @@
     text-align: center;
     width: 100%;
 }
-
+.footer_thanks {
+    grid-template-rows: repeat(5, min-content);
+    align-items:center;
+    align-content:center;
+}
 @media all and (max-width: 1500px)  {
     .footer {
         padding: 40px 90px;
