@@ -13,8 +13,9 @@
 }
 .footer_thanks {
     grid-template-rows: repeat(5, min-content);
-    align-items:center;
-    align-content:center;
+    align-items:end;
+    align-content:end;
+    background:none;
 }
 @media all and (max-width: 1500px)  {
     .footer {
