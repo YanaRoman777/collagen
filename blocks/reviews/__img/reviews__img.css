@@ -4,7 +4,7 @@
     height: 530px;
     border: rgb(215, 156, 167) 1px solid;
     box-shadow: 12px 12px 18px rgba(215, 156, 167, 0.5);
-    border-radius: 20px;
+    border-radius: 20px;\
 }
 
 @media all and (max-width: 500px)  {
